@@ -32,7 +32,7 @@ import Pokemon from './components/Pokemon.vue'
   <div id="app">
     <div class="Top">
         <img class="pokeLogo" src="./assets/Poke.png" alt="" srcset="">
-    <input v-model="search" id="Search" type="text" placeholder="Buscar Pokemon" class="input is-rounded "/>
+    <input v-model="search" id="Search" type="text" placeholder="Find pokemons by name" class="input is-rounded "/>
     </div>
   
     <div class="columns is-desktop is-multiline ">
